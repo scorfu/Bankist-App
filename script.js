@@ -243,7 +243,7 @@ btnTransfer.addEventListener('click', function (event) {
   timer = startLogOutTimer();
 })
 
-//You can cheat the LOAN algorithm by requesting the highest possible loan, at the first loan request, from the deposits done, then double that ammount endlesly
+//You can cheat the LOAN algorithm by requesting the highest possible loan, at the first loan request, from the deposits done, then double that amount endlesslygi
 btnLoan.addEventListener('click', function (e) {
   e.preventDefault();
   const amount = Math.floor(inputLoanAmount.value);
